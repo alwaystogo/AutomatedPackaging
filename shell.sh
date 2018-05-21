@@ -2,8 +2,9 @@
 
 #当前工程绝对路径
 project_path=$(cd `dirname $0`; pwd)
-#当前工程上一级目录
-project_path_pre=../${project_path}
+#生成的IPA文件存放路径
+project_path_pre=~/Desktop/IPAFiles
+#project_path_pre=../${project_path} //当前工程上一级目录
 
 #工程名 将XXX替换成自己的工程名
 project_name=XXX
