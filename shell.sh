@@ -43,7 +43,7 @@ if [ $number == 1 ];then
 development_mode=Release
 exportOptionsPlistPath=${project_path}/exportAppstore.plist
 else
-development_mode=Debug
+development_mode=Release
 exportOptionsPlistPath=${project_path}/exportTest.plist
 fi
 
